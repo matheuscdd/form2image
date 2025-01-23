@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Merriweather&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.internal {
+    position: relative;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main input {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    min-height: 30px;
+}
+
+button {
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: max-content;
+    min-height: 200px;
+}
+
+main button:hover {
+    transform: scale(1.2);
+}
+
+main.screenshot button {
+    opacity: 0;
+}
+
+.option > input {
+    margin-right: 15px;
+}
+
+.signal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.internal > input {
+    margin-bottom: 15px;
+    margin-right: 35px;
+}
+
+.container {
+    width: max-content;
+}
+
+.container-target-select {
+    display: flex;
+    /* background-color: red; */
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+	list-style: none;
+}
+
+.controls {
+    display: flex;
+}
